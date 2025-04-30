@@ -1,0 +1,14 @@
+import numpy as np
+
+# Sample 3x3 matrix (each row = product, each column = sale price for that product)
+sales = np.array([
+    [100, 110, 105],  # Product 1
+    [200, 190, 195],  # Product 2
+    [150, 160, 155]   # Product 3
+])
+
+# 1. Compute the average price of all products sold
+average_price = np.mean(sales)
+
+# 2. Output the result
+print("Average price of all products sold:", average_price)
